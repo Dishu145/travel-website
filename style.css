@@ -50,7 +50,7 @@
  /* navbar */
  /* home */
 .home{
-    background-image: url(img/bg2.jpg);
+    background-image: url(bg2.jpg);
     background-repeat:no-repeat ;
     background-size: cover;
     height: 500px;
@@ -345,7 +345,7 @@
 
 /* contact page */
 .contact-us {
-     background-image: url('img/bg1.jpg');
+     background-image: url('bg1.jpg');
      background-size: cover;
      background-position: center;
      padding: 50px 0;
