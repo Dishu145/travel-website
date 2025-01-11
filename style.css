@@ -1,0 +1,403 @@
+/* navbar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth; 
+    font-family: 'Roboto', sans-serif;
+    
+}
+#navbar{
+     background: #f9f9f9;
+     
+}
+#logo{
+     font-size: 30px;
+     font-weight: 700;
+     color: black;
+     /* text-shadow: 0px 1px 1px black; */
+     margin-bottom: 5px;
+     
+}
+#logo span{
+     color: #37AFE1;
+}
+.navbar-toggler span{
+     color: #08C2FF;
+}
+.navbar-nav{
+     margin-left: 20px;
+}
+.nav-item .nav-link{
+     font-size: 16px;
+     font-weight:550 ;
+     color: black;
+     letter-spacing: 1px;
+     border-radius: 3px;
+     transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+     background: #08C2FF;
+     color:white;
+}
+#navbar form button{
+     background-color:#08C2FF ;
+     color:white;
+     border: none;
+}
+ /* navbar */
+ /* home */
+.home{
+    background-image: url(img/bg2.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+.home .content{
+     text-align: center;
+     padding-top: 150px;
+ 
+}
+.home .content h5{
+     color: white;      
+     font-size: 38px;
+     font-weight: 700;
+     padding-bottom: 18px;
+     text-shadow: 0px 1px 1px black;
+ 
+ 
+}
+.home .content h1{
+     color: white;
+     font-size: 70px;
+     font-weight: 600;
+     text-shadow: 0px 1px 1px black;
+     margin-top: 5px;
+    
+     
+}
+.changecontent::after{
+     content:'' ;
+     color: #ffa500;
+     text-shadow: 0px 1px 1px black;
+     animation: changetext 10s infinite linear;
+}
+@keyframes changetext{
+     0%{content: "Spain";}
+     10%{content: "Korea";}
+     20%{content: "Turkey";}
+     30%{content: "Japan";}
+     40%{content: "India";}
+     50%{content: "Thailand";}
+     60%{content: "Italy";}
+     70%{content: "Nepal";}
+     80%{content: "Dubai";}
+    90%{content: "Germany";}
+    100%{content: "France";}
+    
+     
+}
+.home .content p{
+     color: black;
+     font-size: 20px;
+     font-weight: 600;
+     margin-bottom: 30px;
+     margin-top: 5px;
+}
+.home .content a{
+     padding: 10px;
+     background: #ffa500;
+     color: black;
+     letter-spacing: 1px;
+     font-weight: 550;
+     border-radius: 5px;
+     text-decoration: none;
+     transition: 0.5s;
+     margin-top: 5px;
+}
+.home .content a:hover{
+     background: #08C2FF;
+     color: white;
+}
+ 
+@media (max-width:850px) {
+     .home{
+         background-position:50% ;
+     } 
+}
+@media (max-width:450px) {
+     .home .content h5{
+         font-size: 25px;
+     } 
+     .home .content h1{
+         font-size: 38px;
+     }
+     .home .content p{
+         font-size: 13px;
+     }
+}
+ /* Booking  */
+.book{
+     background: white;
+     padding: 50px;
+}
+.main-text h1{
+     text-align: center;
+     font-weight: 600;
+     color: black;
+     
+}
+ 
+.book.card{
+     border-radius: 10px;
+     box-shadow:  0px 5px 5px -6px black;
+}
+.book .row{
+ 
+     margin-top: 30px;
+}
+.book form input{
+   padding: 10px;
+   color: black;
+   border: none;
+   outline: none;
+   font-size: 15px;
+   border-radius: 10px;
+   box-shadow: 0px 5px 5px -6px black;
+}
+.book form textarea{
+     border: none;
+     border-radius: 10px;
+     resize: none;
+     box-shadow: 0px 5px 5px -6px black;
+     height: 250px;
+}
+.book .submit{
+     width: 160px;
+     font-size: 16px;
+     font-weight: 550;
+     background: #ffa500;
+     color: white;
+     margin-top: 10px;
+     transition: 1s;
+    margin-left:35% ;
+}
+.book .submit:hover{
+   transition: 0.5s;
+     background-color: #08C2FF;
+}
+ @media (max-width:765px) {
+     .book{
+         padding: 0;
+     }
+     .main-text{
+         margin-top: 20px;
+     }
+     
+}
+ 
+ /* packages */
+.main-txt h1{
+     text-align: center;
+     margin-top: 30px;
+     font-weight: 600;
+     color: black;
+}
+ /* .packages .card{
+     border-radius: 5px;
+     border: none;
+     box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+ } */
+.packages .card img{
+     border-radius: 5px;
+}
+.packages .card .card-body{
+     background: transparent;
+}
+.packages .card .card-body h3{
+  font-size: 25px;
+  font-weight: 600;
+}
+.packages .card .card-body p{
+     font-size: 15px;
+}
+.checked{
+     color: #ffa500;
+}
+.star i{
+    font-size: 15px;
+}
+.packages .card.card-body h6{
+    font-size: 20px;
+}
+.packages.card.card-body a{
+    padding: 10px;
+    text-decoration: none;
+    
+}
+/* gallery */
+
+.container-img{
+     background-color:#f9f9f9;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 15px;
+}
+.carousel{
+     overflow: hidden;
+     width: 100%;
+}
+.wrap{
+     display: grid;
+     grid-auto-flow: column;
+     grid-auto-columns: 450px;
+     justify-items: stretch;
+     animation: slide 15s linear infinite;
+}
+.wrap img{
+     width: 500px;
+     height: 500px;
+     border-radius: 15px;
+     object-fit: cover;
+}
+@keyframes slide {
+     to{
+          translate: calc(-4 * 250px);
+     }
+}
+
+/* services */
+.services{
+     background: #f9f9f9;
+     margin-top: 50px;
+}
+.services .card{
+     box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+     border: none;
+     cursor: pointer;
+}
+.services .card i{
+     font-size: 80px;
+     text-align: center;
+     color: #ffa500;
+     margin-top: 20px;
+}
+.services .card .card-body h3{
+     font-weight: 600;
+
+}
+.services .card .card-body{
+     text-align: center;
+}
+/* contact */
+
+.parent{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+
+}
+.container1{
+     position: relative;
+     width: 100%;
+     height: 100vh;
+     background-color: #ffa500;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.item{
+     width: 100%;
+     height: 550px;
+     max-width:820px;
+     background: #fff;
+     border-radius: 20px;
+     box-shadow: 0 0 20px 10px rgba(0,0,0,.4);
+     overflow: hidden;
+     grid-template-columns: repeat(2, 1fr);
+     display: grid;
+     z-index: 100;
+}
+.contact{
+    background: #000;
+
+}
+.submit-form{
+     background:red;
+}
+.first-text{
+   
+     padding-left: 20px;
+     padding-top: 20px;
+     font-size: 35px;
+     color:#ffa500;
+}
+.image{
+     height: 320px;
+     width: 320px;
+}
+
+/* contact page */
+.contact-us {
+     background-image: url('img/bg1.jpg');
+     background-size: cover;
+     background-position: center;
+     padding: 50px 0;
+     color: #fff;
+}
+   
+.contact-us .main-txt h1 {
+     text-align: center;
+     margin-bottom: 25px;
+}
+   
+.contact-us .main-txt p {
+     text-align: center;
+     color: black;
+     margin-bottom: 40px;
+} 
+   
+.contact-us form input .contact-us form textarea {
+     background-color: rgba(255, 255, 255, 0.8);
+     border: none;
+     color: #333;
+}
+   
+.contact-us form input::placeholder .contact-us form textarea::placeholder {
+     color: #666;
+}
+   
+.contact-us form input:focus  .contact-us form textarea:focus {
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+     outline: none;
+}
+   
+.contact-us .btn-primary {
+     background-color:lightskyblue;
+     color: #000;
+     border: none;
+     
+}
+.contact-us .btn-primar:hover{
+     background-color: #007bff;
+     color: #fff;
+}
+   
+.contact-us .contact-details h3 {
+     margin-left: 85px;
+     margin-top: 20px;
+     color:black;
+}
+   
+.contact-us .contact-details p {
+     margin-bottom: 15px;
+     margin-left: 85px;
+     color:black;
+}
+   

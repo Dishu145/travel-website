@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body>
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" id="logo"><span>Travel</span>Anytime</a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#book">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Packages">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactus">Contact Us </a>
+              </li>
+             
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>  
+  <!--Navbar  -->
+     <!-- Home section -->
+      <div class="home">
+        <div class="content">
+            <h5>Discover Your Next Advanture...</h5>
+            <h1>Visit <span class="changecontent"></span></h1>
+         <p>Start planning your dream vacation today.</p>
+            <a href="#book">Book Places</a>
+        </div>
+      </div>
+      <!-- Home Section -->
+ <!--Book Section  -->
+<section class="book" id="book">
+    <div class="container">
+
+        <div class="main-text">
+            <h1>Booking </h1>
+        </div>
+        <div class="row">
+             <div class="col-md-6 py-3 py-md-0">
+                <div class="card">
+                 <img src="img/book1.jpg" alt="image1" height="600px">
+                </div> 
+             </div>
+            <div class="col-md-6 py-3 py-md-0">
+              <form action="#">
+                 
+                <input type="text" class="form-control" placeholder="Where To" required><br>
+                <input type="text" class="form-control" placeholder="How Many" required><br>
+                <input type="date" class="form-control" placeholder="Arrivals" required><br>
+                <input type="date" class="form-control" placeholder="Leaving" required><br>
+                 <textarea class="form-control" rows="5" name="text" placeholder="Enter Your  Details."></textarea><br>
+                 <input type="submit" value="Book Now" class="submit" required>
+              </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+ <!-- Book Section -->
+
+  <!-- Packages -->
+   <section class="Packages" id="Packages">
+      <div class="container">
+        <div class="main-txt">
+          <h1>Packages</h1>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="img/spain.jpg" alt="image2">
+
+              <div class="card-body">
+                <h2>Spain</h2>
+                <p>Its rich cultural heritage, diverse landscapes, and vibrant history. </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book">Book Now</a>
+
+              </div>
+
+            </div>
+
+          </div> 
+          
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="img/korea.jpg" alt="image3">
+
+              <div class="card-body">
+                <h2>Korea</h2>
+                <p>Its rich cultural heritage, diverse landscapes, and vibrant history. </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+
+                <h6>Price: <strong>$800</strong></h6>
+                <a href="#book">Book Now</a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="img/turkey.jpg" alt="image4">
+
+              <div class="card-body">
+                <h2>Turkey</h2>
+                <p>Its rich cultural heritage, diverse landscapes, and vibrant history. </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+
+                <h6>Price: <strong>$750</strong></h6>
+                <a href="#book">Book Now</a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="img/japan.jpg" alt="image5">
+
+              <div class="card-body">
+                <h2>Japan</h2>
+                <p>Its rich cultural heritage, diverse landscapes, and vibrant history. </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+
+                <h6>Price: <strong>$550</strong></h6>
+                <a href="#book">Book Now</a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="img/india.jpg" alt="image6">
+
+              <div class="card-body">
+                <h2>India</h2>
+                <p>Its rich cultural heritage, diverse landscapes, and vibrant history. </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+
+                <h6>Price: <strong>$950</strong></h6>
+                <a href="#book">Book Now</a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="img/thailand.jpg" alt="image7">
+
+              <div class="card-body">
+                <h2>Thailand</h2>
+                <p>Its rich cultural heritage, diverse landscapes, and vibrant history. </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book">Book Now</a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="img/italy.jpg" alt="image8">
+
+              <div class="card-body">
+                <h2>Italy</h2>
+                <p>Its rich cultural heritage, diverse landscapes, and vibrant history. </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+
+                <h6>Price: <strong>$650</strong></h6>
+                <a href="#book">Book Now</a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="img/nepal.jpg" alt="image9">
+
+              <div class="card-body">
+                <h2>Nepal</h2>
+                <p>Its rich cultural heritage, diverse landscapes, and vibrant history. </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+
+                <h6>Price: <strong>$600</strong></h6>
+                <a href="#book">Book Now</a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="img/dubai.jpg" alt="image10">
+
+              <div class="card-body">
+                <h2>Dubai</h2>
+                <p>Its rich cultural heritage, diverse landscapes, and vibrant history. </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                </div>
+
+                <h6>Price: <strong>$850</strong></h6>
+                <a href="#book">Book Now</a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="img/Germany.jpg" alt="image11">
+
+              <div class="card-body">
+                <h2>Germany</h2>
+                <p>Its rich cultural heritage, diverse landscapes, and vibrant history. </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book">Book Now</a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="img/France.jpg" alt="image12">
+
+              <div class="card-body">
+                <h2>France</h2>
+                <p>Its rich cultural heritage, diverse landscapes, and vibrant history. </p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+
+                <h6>Price: <strong>$500</strong></h6>
+                <a href="#book">Book Now</a>
+
+              </div>
+
+            </div>
+
+          </div>
+          
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              
+              <div class="card-body">
+                <h2>Build Your Own Packages.</h2>
+                
+                <a href="#book">Create Now</a>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>   
+   </section>
+ <!-- Packages -->
+  
+<!-- Gallery -->
+<section class="gallery" id="gallery">
+  <div class="main-txt">
+    <h1>Gallery</h1>
+  </div>
+  
+  <div class="container-img">
+    
+   <div class="carousel">
+
+     <div class="wrap">
+      
+      <img src="img/g1.jpg" alt="">
+      <img src="img/g2.jpg" alt="">
+      <img src="img/g3.jpg" alt="">
+      <img src="img/g4.jpg" alt="">
+      <img src="img/g5.jpg" alt="">
+      <img src="img/g6.jpg" alt="">
+      <img src="img/g7.jpg" alt="">
+      <img src="img/g8.jpg" alt="">
+      <img src="img/g9.jpg" alt="">
+      <img src="img/g10.jpg" alt="">
+      
+    </div>
+
+
+     
+
+   </div>
+  </div>
+</section> 
+
+<!-- services -->
+<section class="services" id="services">
+  <div class="container">
+
+    <div class="main-txt">
+      <h1>Services</h1>
+    </div>
+
+    <div class="row" style="margin-top: 30px;">
+
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <i class="fas fa-hotel"> </i>
+            <div class="card-body">
+               <h3>Affordable Hotel</h3>
+               <p>Accommodation, hotels or booking to stay.</p>
+            </div>
+         
+        </div>
+      </div>
+
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <i class="fas fa-utensils"> </i>
+            <div class="card-body">
+               <h3>Food & Drinks</h3>
+               <p>Local cuisine, resturants, or food-related acitivies.</p>
+            </div>
+         
+        </div>
+      </div>
+
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <i class="fas fa-first-aid kit"> </i>
+            <div class="card-body">
+               <h3> Safty Guide</h3>
+               <p>Represents health , safety and travel insurance.</p>
+            </div>
+         
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="row" style="margin-top: 30px;">
+
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <i class="fas fa-plane-departure"></i>
+            <div class="card-body">
+               <h3>Transportation</h3>
+               <p>Flights, air travel and transportation.</p>
+            </div>
+         
+        </div>
+      </div>
+
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <i class="fas fa-globe"> </i>
+            <div class="card-body">
+               <h3>Destination</h3>
+               <p>The world Or international travel</p>
+            </div>
+         
+        </div>
+      </div>
+
+      <div class="col-md-4 py-3 py-md-0">
+
+        <div class="card">
+          <i class="fas fa-umbrella-beach"> </i>
+            <div class="card-body">
+               <h3>Beaches</h3>
+               <p>Relaxation,beach holidays and leisure activities.</p>
+            </div>
+         
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+  <div class="container">
+
+    <div class="main-txt">
+      <h1>About </h1>
+    </div>
+     
+   <div class="row" style="margin-top: 50px;">
+
+     <div class="col-md-6 py-3  py-md-0">
+        <div class="card">
+           <img src="img/about.jpg" alt="" >
+        </div>
+     </div>
+
+    <div class="col-md-6 py-3  py-md-0" >
+        <h2>Why Choose Us?</h2>
+       <ul>
+         <li><strong>Expert Travel Guides:</strong> Our team of travel experts is dedicated to providing you with in-depth and up-to-date information.
+         We Cover everything from must-see attraction to off-the-beaten-path adventures.</li><br><br>
+         <li><strong>Customized Travel Planning :</strong>With our user-friendly tools,planning your next trip has never been easier. Whether you're booking flights, hotels; or activities
+         we help you tailor every details of your Journey.</li><br><br>
+         <li><strong>Local Insights:</strong>We believe that the best travel experiences come from immersing yourself in local culture.
+         That's why we provide insider tips and hidden gems to ensure you discover destinations like a local.</li><br><br>
+         <li><strong>Trusted Reviews:</strong>We provide honest,unbiased reviews to help you make informed decisions. We value our traveler's feedback and use it to improve our services 
+         and recommendations.</li>
+       </ul>
+       <h3>Our Values:-</h3>
+       <ol>
+         <li><strong>Adventure:</strong>We encourage everyone to step outside their comfort zone and explore the world.</li><br>
+         <li><strong>Sustainability:</strong>We believe in responsible travel and aim to promote eco-friendly practices that protect our planet for future generations.</li><br>
+         <li><strong>Community:</strong>We are a community of passionate travelers,dedicated to sharing experiences and learning from one another.</li><br>
+       </ol>
+    </div> 
+   </div>
+
+
+  </div>
+</section>
+ 
+<!-- Contact Us Section -->
+<section class="contact-us" id="contactus">
+  <div class="container">
+    <div class="main-txt">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you ! Feel free to reach out for inquiries or feedback.</p>
+    </div> 
+    <div class="row">
+      <div class="col-md-6">
+        <form action="#" method="post">
+          <input type="text" class="form-control mb-3" placeholder="Your Name" required>
+          <input type="email" class="form-control mb-3" placeholder="Your Email" required>
+          <input type="text" class="form-control mb-3" placeholder="Subject" required>
+          <textarea class="form-control mb-3" rows="5" placeholder="Message" required></textarea>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+
+      <div class="col-md-6">
+        <div class="contact-details">
+          <h3>Our Address</h3>
+          <p><i class="fa fa-map"></i> Travel Lane, Wanderlust City, Earth</p>
+          <h3>Phone</h3>
+          <p><i class="fa fa-phone"></i> +1 234 567 890</p>
+          <h3>Email</h3>
+          <p><i class="fa fa-envelope"></i> info@travelanytime.com</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+</body>
+</html>
